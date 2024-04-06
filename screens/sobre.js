@@ -4,6 +4,7 @@ import { AntDesign } from '@expo/vector-icons';
 import { useCallback } from 'react';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
+import Perfil from '../'
 
 
 // You can import from local files
@@ -29,6 +30,7 @@ export default function Sobre() {
     <View style={styles.container2}>
       <Text style={{fontFamily: 'Inter-Bold',color: '#c6d6d6',textAlign: 'center',marginTop: '30%',marginBottom: '10%',fontSize: 48,}}>Sobre</Text>
       <View>
+        <Image style={styles.Img2} source={Perfil}/>
         <Text style={styles.Text3}>
           Meu nome é Murillo Benício do 3º Info, e estou fazendo um Aplicativo
           para mostrar a hístoria da antiga Grécia. Estou usando o Github - Codespace para

@@ -13,8 +13,7 @@ const HomeStack = createNativeStackNavigator();
 function HomeStackScreen() {
   return (
     <HomeStack.Navigator>
-      <HomeStack.Screen name="Início" component={Home} />
-      <HomeStack.Screen name="Calcular" component={Calcular} />
+      <HomeStack.Screen name="Inicio" component={Home} />
     </HomeStack.Navigator>
   );
 }
@@ -24,7 +23,7 @@ const Tab = createBottomTabNavigator();
 function MyTabs() {
   return (
     <Tab.Navigator
-      initialRouteName="Início"
+      initialRouteName="Home"
       screenOptions={{
         tabBarActiveTintColor: '#dee7e7',
         tabBarInactiveTintColor: '#a92727',
