@@ -1,7 +1,9 @@
 import { StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
 
-export default styles = StyleSheet.create({
+export default styles = 
+
+StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: '20%',
@@ -11,9 +13,10 @@ export default styles = StyleSheet.create({
     marginTop: '30%',
     marginBottom: '10%',
     fontSize: 48,
-    fontWeight: 'bold',
+    //fontWeight: 'bold',
     textAlign: 'center',
     color: '#c6d6d6',
+    //fontFamily: Inter_700Bold,
   },
   botaoCalcular: {
     flexDirection: 'row',
@@ -61,7 +64,7 @@ export default styles = StyleSheet.create({
   title2: {
     marginBottom: '10%',
     fontSize: 48,
-    fontWeight: 'bold',
+    //fontWeight: 'bold',
     textAlign: 'center',
     color: '#c6d6d6',
   },
